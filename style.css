@@ -1,0 +1,775 @@
+*{margin: 0;
+padding: 0;}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0px 30px;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: #1A76D1;
+}
+.btn button{
+    padding: 10px 25px;
+    background-color: #1A76D1;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.background{
+    background-image: url(https://plus.unsplash.com/premium_photo-1661328213003-c77d9ba01131?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRvY3RvciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+}
+.background .bgbutton{
+    display: flex;
+    margin-left: 74px;
+}
+.background .bgtext {
+    width: 36%;
+    padding-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    padding-top: 50px;
+
+}
+
+.background .bgtext span{
+    color: #1A76D1;
+}
+.background .bgbutton button{
+    padding: 13px 25px;
+    background-color: #1A76D1;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.background .bgbutton .btn{
+    margin: 20px 8px;
+
+}
+.mainbox{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+    margin-top: -110px;
+
+}
+.mainbox .box{
+    width: 28%;
+    padding: 30px 20px;
+    background-color: #1A76D1;
+    border-radius: 4px;
+}
+.box p{
+    color: white;
+    line-height: 25px;
+    font-size: 17px;
+}
+.box h1,h3{
+    color: white;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    padding-top: 20px;
+}
+.main2{
+    text-align: center;
+}
+.box .text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box .text p{
+    line-height: 12px;
+   margin: 10px 0px;
+}
+.second{
+    text-align: center;
+
+}
+.second h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    padding: 40px 0px;
+}
+.second p{
+    font-size: 17px;
+    color: gray;
+    line-height: 30px;
+}
+.third{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 70px 70px;
+}
+.third .icon{
+    margin: 0px 30px;
+}
+.third .icon i{
+    color:#1A76D1;
+    font-size: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    padding: 20px 0px;
+}
+.third .icon i:hover{
+    color:white;
+    background-color: #1A76D1;
+
+
+}
+.third .icon p{
+    line-height: 25px;
+    color: gray;
+    font-size: 17px;
+}
+.third .icon h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.bg2{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rQSW4cS2V4iU8J17i4-F0D32-vfGwoPazg&s);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin: 100px 0px;
+    
+}
+.bg2 .bgcolor{
+    background-color: #1a76d1b7;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.bgcolor i{
+    font-size: 40px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 80px;
+    height: 40px;
+    padding: 20px 0px;
+    
+}
+.bgcolor .icon{
+    display: flex;
+    color: white;
+    margin: 0px 50px;
+}
+.bgcolor .icon .iconnumber{
+    margin-left: 10px;
+}
+.bgcolor i:hover{
+    color: #1a76d1b7;
+    background-color: white;
+}
+.bgcolor .icon p{
+    font-size: 17px;
+}
+.fourth{
+    text-align: center;
+}
+.fourth p{
+    line-height: 25px;
+    color: gray;
+    font-size: 17px;
+}
+.fourth h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.fifth{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 60px 70px;
+    
+}
+.fifth .text{
+    width: 45%;
+}
+
+.fifth .text p{
+    padding: 20px 0px;
+    font-size: 17px;
+    line-height: 25px;
+    color: gray;
+    
+}
+.fifth .text h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.fifth .video{
+    width: 50%;
+    margin: 0px 30px;
+}
+.fifth .text .text1{
+    display: flex;
+    margin: 0px -45px; 
+}
+.fifth .text1 ul li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 40px;
+    color: grey;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.fifth .text1 ul li i{
+    color: #1A76D1; 
+    margin: 3px;
+}
+
+
+.bg3{
+    background-image: url(https://educationpost.in/_next/image?url=https%3A%2F%2Fapi.educationpost.in%2Fs3-images%2F1707287209044-Delving-into-Doctor-Patient-Ratio.jpg&w=3840&q=75);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg3 .blue{
+    background-color: #1a76d1a6;
+    height: 400px;
+}
+.bg3 .text{
+    text-align: center;
+    padding: 78px 0px;
+}
+.bg3 .text h1{
+    line-height: 50px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    color: white;
+    font-size: 40px;
+}
+.bg3 .text p{
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+}
+.bg3 .text .mainbtn{
+    display: flex;
+    justify-content: center;
+
+}
+.bg3 .mainbtn button{
+    background-color: #1a76d11c;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color:  white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.bg3 .mainbtn .btn2{
+    margin: 20px;
+}
+.bg3 .mainbtn button:hover{
+   color: #1A76D1;
+   background-color: white;
+    
+}
+.sixth{
+    text-align: center;
+    margin: 85px 0px ;
+}
+.sixth h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.sixth p{
+    color: gray;
+    font-size: 20px;
+    padding: 30px 0px ;
+}
+.images{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 70px;
+}
+.images .box{
+    margin: 0px 10px;
+    width: 30%;
+}
+.images .box button{
+    width: 100%;
+    background-color: #1a76d1d7;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color:  white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.seventh{
+    text-align: center;
+    margin: 70px 0px;
+}
+.seventh h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.seventh p{
+    color: gray;
+    font-size: 20px;
+    padding: 30px 0px ;
+}
+.eighth{
+    width: 90%;
+    display: flex;
+    margin: 0px 70px;
+    flex-wrap: wrap;
+
+}
+.eighth .item{
+    display: flex;
+    width: 33%;
+    margin: 60px 0px;
+}
+.eighth .item i{
+    font-size: 45px;
+    color: #1a76d1;
+}
+.eighth .item .text{
+    margin: 0px 20px;
+}
+
+.eighth .item .text h4{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+}
+.eighth .item .text p{
+    line-height: 20px;
+    color: gray;
+}
+.ninth{
+    text-align: center;
+    margin: 85px 0px ;
+
+}
+.ninth h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.ninth p{
+    color: gray;
+    font-size: 20px;
+    padding: 30px 0px ;
+}
+.tenth{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+.tenth .box{
+    width: 25%;
+    background-color: white;
+    margin: 0px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.tenth .box .icon i{
+    font-size: 40px;
+    margin-top: 30px;
+    color: #1A76D1;
+}
+.tenth .box .title h2{
+    color:black ;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.tenth .box .price {
+    font-size: 30px;
+    color: #1A76D1;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    margin-left: 30px;
+}
+.tenth .box .price span{
+    font-size: 13px;
+    margin-left: 10px;
+    color: gray;
+}
+.tenth .box .boxlist{
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    margin-top: 25px;
+
+}
+
+.tenth .box .boxlist .list1 ul li{
+    list-style: none;
+    color: gray;
+    margin-right: 20px;
+}
+.tenth .box .boxlist .list2 ul li{
+    list-style: none;
+    color: #1A76D1;
+    margin-left: 30px;
+}
+
+
+.tenth .box .btn button{
+    background-color: #1A76D1;
+    margin: 20px 0px;
+    padding: 10px 80px ;
+}
+.eleven{
+    text-align: center;
+}
+.eleven h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    margin: 70px 0px;
+}
+.eleven p{
+    color: gray;
+    font-size: 20px;
+    padding: 30px 0px ;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.boxmain .box{
+    width: 28%;
+    margin: 0px 10px;
+    border: 1px solid gray;
+    box-shadow: 2px 1px 6px 0px gray;
+    border-radius: 0px 0px 5px 5px;
+}
+.boxmain .box:hover{
+    border-bottom: 2px solid #1A76D1;
+}
+.boxmain .boxhead .image img{
+    width: 343px;
+}
+.boxmain .boxhead .date{
+   width: 100px;
+    background-color:#1A76D1;
+    margin-top: 30px;
+    padding: 9px 12px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+}
+.boxmain .boxhead .textbox {
+    margin-left: 30px;
+}
+.boxmain .boxhead .textbox h1{
+    color: black;
+    font-size: 21px;
+}
+.boxmain .boxhead .textbox p{
+    color: gray;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 20px 0px;
+}
+.twelth{
+    text-align: center;
+}
+.twelth h1{
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    margin: 70px 0px;
+}
+.twelth p{
+    color: gray;
+    font-size: 20px;
+    padding: 30px 0px ;
+}
+.mainform{
+    display: flex;
+}
+.mainform .formflex{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 5px;
+
+}
+.mainform .formflex .leftform{
+    width: 45%;
+}
+.mainform .formflex .leftform input[type=text]{
+    padding: 10px;
+    width: 87%;
+}
+.mainform .formflex .leftform input[type=number]{
+    padding: 10px;
+    width: 87%;
+}
+
+.mainform .formflex .rightform{
+    width: 150px;
+    width: 45%;
+}
+.mainform .formflex .leftform input{
+    padding: 15px 50px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    margin: 10px 0px;
+}
+.mainform .formflex .leftform select{
+    padding: 11px 7px;
+    width: 248px;
+    margin: 10px 0px;
+    color: gray;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.mainform .formflex .rightform input{
+    padding: 15px 50px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    margin: 10px 0px;
+}
+.mainform .formflex .rightform input[type=email]{
+    padding: 10px;
+    width: 87%;
+}
+.mainform .formflex .rightform input[type=datetime]{
+    padding: 10px;
+    width: 87%;
+}
+
+.mainform .formflex .rightform select{
+    padding: 11px 7px;
+    width: 248px;
+    margin: 10px 0px;
+    color: gray;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+
+}
+
+.mainform .imagedoc{
+    width: 40%;
+    margin-left: 60px;
+
+}
+
+.mainform .formflex .leftform textarea{
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 87%;
+}
+.mainform .formflex .leftform .flexbutton{
+    width: 613px;
+   margin: 20px 0px;
+    display: flex;
+}
+.mainform .formflex .leftform .flexbutton p{
+    margin-left: 50px;
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.mainsubscribe{
+    display: flex;
+    justify-content: center;
+    background-color: #EDF2FF;
+    padding: 40px 0px;
+}
+.mainsubscribe .text{
+    width: 500px;
+    font-family: "Karla", sans-serif;
+}
+.mainsubscribe .text p{
+    font-size: 15px;
+    color: gray;
+    padding-top: 20px;
+}
+.mainsubscribe .subscribe{
+    display: flex;
+    margin: 32px 0px;
+}
+.mainsubscribe .subscribe input{
+    padding: 15px 60px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    border: none;
+    border-radius: 4px;
+}
+.mainsubscribe .subscribe input[type=email]{
+    padding: 20px;
+}
+.mainsubscribe .subscribe button{
+    padding: 16px 0px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    width: 130px;
+}
+
+.footerflex{
+    display: flex;
+    background-color: #1A76D1;
+    padding-left: 20px;
+}
+.footerflex .footerfirst{
+    width: 25%;
+    margin: 45px 0px 0px 30px;
+    color: white;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.footerflex .footerfirst .footerhead h2 {
+    border-bottom: 3px solid white;
+    width: 115px;
+}
+.footerflex .footerfirst p{
+    font-size: 15px;
+    width: 65%;
+    margin-top: 20px;
+}
+.footerflex .footerfirst .footericon ul li{
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin: 20px 10px;
+
+}
+.footerflex .footerfirst .footericon ul li i{
+    padding: 8px;
+}
+.footersecond{
+    width: 25%;
+    margin-top: 45px;
+    color: white;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+
+.footerflex .footersecond .footerhead h2{
+    border-bottom: 3px solid white;
+    width: 140px;
+}
+.footerflex .footersecond .navbar{
+    display: flex;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+.footersecond .navbar .secondli{
+    margin-left: 30px;
+}
+.footerthird{
+    width: 22%;
+    margin-top: 45px ;
+    color: white;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    
+
+}
+.footerthird .footerhead p{
+    margin-top: 20px;
+}
+
+.footerflex .footerthird .footerday .flexdate{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.footerflex .footerthird .footerday .flexdate .day{
+    margin-right: 20px;
+}
+.footerflex .footerthird .footerhead h2{
+    border-bottom: 3px solid white;
+    width: 180px;
+}
+
+.footerfourth{
+    width: 22%;
+    margin-top: 45px ;
+    color: white;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    
+}
+.footerfourth .lasttext p{
+    margin-top: 20px;
+}
+.footerflex .footerfourth .footerhead h2{
+    border-bottom: 3px solid white;
+    width: 140px;
+}
+.footerfourth .subscribe{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.footerfourth .subscribe input{
+    padding: 15px 8px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    border: 1px solid white;
+    background-color: #1a76d18c;
+    border-radius: 5px 0px 0px 5px;
+}
+.footerfourth .subscribe .btn{
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    
+}
+
+.footerfourth .subscribe .btn i{
+
+color: #1A76D1;
+padding: 15px;
+
+}
+
+footer .subscribe input::placeholder{
+    color: white;
+}
+footer .subscribe input:focus::placeholder{
+    margin-top: -20px;
+}
