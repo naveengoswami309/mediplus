@@ -757,14 +757,12 @@ nav{
     background-color: white;
     border-radius: 0px 5px 5px 0px;
     cursor: pointer;
+    border: 1px solid white;
     
 }
 
-.footerfourth .subscribe .btn i{
-
-color: #1A76D1;
-padding: 15px;
-
+.footerfourth .subscribe .btn button i{
+font-size: 25px;
 }
 
 footer .subscribe input::placeholder{

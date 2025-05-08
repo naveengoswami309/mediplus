@@ -604,19 +604,48 @@
             <div class="lasttext">
                 <p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
  </p>
+ <form id="contact-form">
  <div class="subscribe">
     <div class="textsub">
-        <input type="email" placeholder="Your Email Address">
+        <input type="email" placeholder="Your Email Address" name="email">
     </div>
     <div class="btn">
-        <i class="fa-solid fa-paper-plane"></i>
+        
+        <button>
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
     </div>
-</div>
+</div></form>
             </div>
             
         </div>
       
     </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "lCrQqXAu7o26Rbt7g",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_6gp2nis', 'template_3l4nogs', this)
+                    .then(() => {
+                        alert('THANK YOU FOR SUBMITTING WE WILL CALL YOU BACK...!');
+                        setTimeout(() => {
+                            window.location.reload()
+                        }, 1000)
+                    }, (error) => {
+                        alert('FAILED...',);
+                    });
+            });
+        }
+    </script>
   
 
 
