@@ -123,9 +123,10 @@ nav{
     font-weight: bold;
     font-family: "Karla", sans-serif;
     padding: 40px 0px;
+    margin-bottom: 30px;
 }
 .second p{
-    font-size: 17px;
+    font-size: 20px;
     color: gray;
     line-height: 30px;
 }
@@ -161,6 +162,7 @@ nav{
 .third .icon h1{
     font-weight: bold;
     font-family: "Karla", sans-serif;
+    
 }
 .bg2{
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rQSW4cS2V4iU8J17i4-F0D32-vfGwoPazg&s);
@@ -210,11 +212,12 @@ nav{
 .fourth p{
     line-height: 25px;
     color: gray;
-    font-size: 17px;
+    font-size: 20px;
 }
 .fourth h1{
     font-weight: bold;
     font-family: "Karla", sans-serif;
+    margin-bottom: 50px;
 }
 .fifth{
     width: 90%;
@@ -464,7 +467,7 @@ nav{
 .eleven h1{
     font-weight: bold;
     font-family: "Karla", sans-serif;
-    margin: 70px 0px;
+    margin-top: 50px;
 }
 .eleven p{
     color: gray;
@@ -520,7 +523,7 @@ nav{
 .twelth h1{
     font-weight: bold;
     font-family: "Karla", sans-serif;
-    margin: 70px 0px;
+    margin-top: 50px
 }
 .twelth p{
     color: gray;
